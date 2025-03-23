@@ -1,0 +1,43 @@
+﻿  Building Custom Rule C:/fydesis_cmake/CMakeLists.txt
+  Constraint.cpp
+  Element.cpp
+  FEMSolver.cpp
+C:\fydesis_cmake\src\FEMSolver.cpp(224,47): warning C4244: аргумент: преобразование "Eigen::EigenBase<Derived>::Index" в "const _Kty", возможна потеря данных
+          with
+          [
+              Derived=Eigen::SparseMatrix<float,0,int>
+          ]
+          and
+          [
+              _Kty=int
+          ]
+C:\fydesis_cmake\src\FEMSolver.cpp(224,84): warning C4244: аргумент: преобразование "Eigen::EigenBase<Derived>::Index" в "const _Kty", возможна потеря данных
+          with
+          [
+              Derived=Eigen::SparseMatrix<float,0,int>
+          ]
+          and
+          [
+              _Kty=int
+          ]
+C:\fydesis_cmake\src\FEMSolver.cpp(226,42): warning C4244: аргумент: преобразование "Eigen::EigenBase<Derived>::Index" в "int", возможна потеря данных
+          with
+          [
+              Derived=Eigen::SparseMatrix<float,0,int>
+          ]
+C:\fydesis_cmake\src\FEMSolver.cpp(227,42): warning C4244: аргумент: преобразование "Eigen::EigenBase<Derived>::Index" в "int", возможна потеря данных
+          with
+          [
+              Derived=Eigen::SparseMatrix<float,0,int>
+          ]
+  ProblemSetup.cpp
+C:\fydesis_cmake\src\ProblemSetup.cpp(57,41): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\fydesis_cmake\src\ProblemSetup.cpp(58,41): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\fydesis_cmake\src\ProblemSetup.cpp(103,29): warning C4244: =: преобразование "Eigen::EigenBase<Derived>::Index" в "int", возможна потеря данных
+          with
+          [
+              Derived=Eigen::Matrix<float,-1,1,0,-1,1>
+          ]
+  main.cpp
+  Создание кода...
+  fidesys.vcxproj -> C:\fydesis_cmake\bin\Debug\fidesys.exe

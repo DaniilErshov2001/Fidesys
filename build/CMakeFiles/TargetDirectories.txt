@@ -1,0 +1,3 @@
+C:/fydesis_cmake/build/CMakeFiles/fidesys.dir
+C:/fydesis_cmake/build/CMakeFiles/ALL_BUILD.dir
+C:/fydesis_cmake/build/CMakeFiles/ZERO_CHECK.dir
